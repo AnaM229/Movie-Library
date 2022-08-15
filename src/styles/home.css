@@ -1,0 +1,21 @@
+.genre{
+    display:inline-block;
+    font-size: x-large;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 5em;
+    margin-right: 1em;
+    color:#DF757F;
+    background-color: #9B1E25;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    text-decoration: none;
+}
+
+.genre:hover{
+    color: #9B1E25;
+    background-color: white;
+}
+
+#greet{
+    padding: 1.5em;
+    text-shadow: 3px 2px 0px #fff, 8px 7px 0px rgba(0,0,0,0.15);
+}
