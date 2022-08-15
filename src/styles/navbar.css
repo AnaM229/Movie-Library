@@ -1,0 +1,17 @@
+#logo{
+    width: 3em;
+}
+#navbar{
+    background-color: #9B1E25;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+#left-col{
+    text-align: right;
+}
+#right-col{
+    text-align: left;
+    padding-top: 1em;
+    padding-left: 1em;
+    color: white;
+}
