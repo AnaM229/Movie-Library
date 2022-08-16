@@ -2,15 +2,39 @@
     display: grid;
     grid-template-columns: repeat(2,50%);
     margin: 2em;
+    background-color: #9B1E25;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 #image{
     text-align: center;
+    border: 5px dotted #9B1E25;
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
 }
 #info{
     text-align: center;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 2em;
+    margin: 3em;
+    border: 5px dotted #9B1E25;
+}
+#info:hover{
+    cursor: pointer;
+    background-color: #9B1E25;
+    color:white;
 }
 img{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin: 0em;
+}
+
+.movie-info #info{
+    display: block;
+    padding: 5em;
+    margin: 5em;
+}
+.movie-info #image{
+    display: none;
 }

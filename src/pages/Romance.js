@@ -7,7 +7,7 @@ export default function Romance() {
   return (
     <div>
       {RomanticMovies.map((romanticMovie, key) => {
-        return <Movie key={key} cover={romanticMovie.cover} name={romanticMovie.name} rating={romanticMovie.rating} />
+        return <Movie key={key} cover={romanticMovie.cover} name={romanticMovie.name} rating={romanticMovie.rating} preview={romanticMovie.preview} />
       })}
     </div>
   )
